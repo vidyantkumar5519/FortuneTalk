@@ -1,0 +1,35 @@
+/* Hide the default thumbnail dots (over the carousel) */
+.carousel .thumbs-wrapper {
+    display: none !important;
+  }
+  
+  /* Hide the status text, which could appear over the carousel */
+  .carousel .carousel-status {
+    display: none !important;
+  }
+  
+  /* Style for the dots when inactive */
+  button span {
+    background-color: transparent; /* Inactive dots have a transparent background */
+    border: 2px solid #F27806; /* Border color for inactive dot */
+    width: 12px; /* Set the size of the dots */
+    height: 12px; /* Set the size of the dots */
+    border-radius: 50%; /* Make the dots circular */
+    display: inline-block;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+  }
+  
+  /* Active dot styles - fill the inner circle with orange */
+  button.bg-[#F27806] span {
+    background-color: #F27806; /* Fill the active dot with orange */
+    border: 2px solid #F27806; /* Border remains orange */
+    border-radius: 30px;
+  }
+  
+  /* Optional: Hover effect for the dots */
+  button:hover span {
+    background-color: #F27806;
+    border-color: #F27806; /* Keep border color consistent when hovered */
+    border-radius: 30px;
+  }
+  

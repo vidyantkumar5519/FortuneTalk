@@ -1,0 +1,13 @@
+@keyframes pop {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .pop-effect {
+    animation: pop 1.2s ease-in-out infinite;
+  }
+  

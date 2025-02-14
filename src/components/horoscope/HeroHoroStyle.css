@@ -1,0 +1,19 @@
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .yellow-curve-line {
+    position: absolute;
+    bottom: -10px; /* Adjust vertical position as needed */
+    left: 0;
+    right: 0;
+    height: 8px; /* Height of the curved line */
+    background: #F27806; /* Yellow color */
+    border-radius: 50%; /* Create a curve effect */
+    transform: scaleY(0.5); /* Adjust curvature */
+  }

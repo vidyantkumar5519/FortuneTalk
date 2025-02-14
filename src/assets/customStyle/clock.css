@@ -1,0 +1,47 @@
+@keyframes spin {
+  from {
+    transform: translate(-50%, -100%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -100%) rotate(360deg);
+  }
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+@keyframes pop {
+  0%, 100% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1); /* Adjust scale as needed */
+  }
+}
+.pop {
+  animation: pop 0.5s infinite; /* Adjust duration for faster or slower pop */
+}
+
+
+
+/* .blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+} */

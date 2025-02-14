@@ -1,0 +1,21 @@
+.main-container {
+  display: "flex";
+}
+
+/* .main-container .overlay {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+  z-index: 99;
+} */
+
+
+
+@media (max-width: 961px) {
+  .main-container .overlay.show {
+    display: block;
+  }
+}

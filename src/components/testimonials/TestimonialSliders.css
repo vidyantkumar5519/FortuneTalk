@@ -1,0 +1,25 @@
+/* CSS for positioning the dots lower */
+.custom-dot-list-style {
+  position: absolute; /* Ensure the dots container is positioned */
+  bottom: -40px; /* Adjust this value to move the dots further down */
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center the dots horizontally */
+}
+
+.custom-dot-list-style li {
+  margin: 0 5px; /* Space between dots */
+}
+
+.custom-dot-list-style button {
+  background-color: #ccc; /* Dot color */
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+
+.custom-dot-list-style .react-multi-carousel-dot--active button {
+  background-color: #333; /* Color for active dot */
+}
